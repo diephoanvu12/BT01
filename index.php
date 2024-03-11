@@ -1,3 +1,22 @@
+<?php
+
+
+// Kiểm tra xem người dùng đã gửi dữ liệu POST chưa
+if(isset($_POST['btnlogin'])) {
+    $username = $_POST['txtusername'];
+    $password = $_POST['txtPassword'];
+
+    if($username == "admin" && $password == "admin")
+    {
+        header("Location: success.php");
+        exit();
+    }
+    else{
+        echo "sai mat khau";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +31,7 @@
                 <h2>Đăng nhập tài khoản</h2>
             </div>
             <div class="login-form">
-                <form id="form_reg" action="login.php" method="post">
+                <form id="form_reg" action="index.php" method="post">
                     <div class="form-fild">
                         <p><label>Ten dang nhap<span class="required">*</span></label></p>
                         <input type="text" name="txtusername" class="form-control" id="username">
