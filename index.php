@@ -22,7 +22,7 @@
                         <input type="password" name="txtPassword" class="form-control" id="password">
                     </div>
 
-                    <button type="submit" name="btnlogin">Đăng nhập</button>
+                    <button type="submit" name="btnlogin">Dang nhap</button>
                       
                     
                 </form>
