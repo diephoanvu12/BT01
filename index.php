@@ -14,11 +14,11 @@
             <div class="login-form">
                 <form id="form_reg" action="login.php" method="post">
                     <div class="form-fild">
-                        <p><label>Tên đăng nhập<span class="required">*</span></label></p>
+                        <p><label>Ten dang nhap<span class="required">*</span></label></p>
                         <input type="text" name="txtusername" class="form-control" id="username">
                     </div>
                     <div class="form-fild">
-                        <p><label>Password <span class="required">*</span></label></p>
+                        <p><label>Mat khau <span class="required">*</span></label></p>
                         <input type="password" name="txtPassword" class="form-control" id="password">
                     </div>
 
