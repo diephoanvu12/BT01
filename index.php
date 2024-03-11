@@ -17,6 +17,10 @@
                         <p><label>Tên đăng nhập<span class="required">*</span></label></p>
                         <input type="text" name="username" class="form-control" id="username">
                     </div>
+                    <div class="form-fild">
+                        <p><label>Mật khẩu <span class="required">*</span></label></p>
+                        <input type="password" name="password" class="form-control" id="password">
+                    </div>
                     
                 </form>
             </div>
