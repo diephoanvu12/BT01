@@ -15,12 +15,15 @@
                 <form id="form_reg" action="login.php" method="post">
                     <div class="form-fild">
                         <p><label>Tên đăng nhập<span class="required">*</span></label></p>
-                        <input type="text" name="username" class="form-control" id="username">
+                        <input type="text" name="txtusername" class="form-control" id="username">
                     </div>
                     <div class="form-fild">
-                        <p><label>Mật khẩu <span class="required">*</span></label></p>
-                        <input type="password" name="password" class="form-control" id="password">
+                        <p><label>Password <span class="required">*</span></label></p>
+                        <input type="password" name="txtPassword" class="form-control" id="password">
                     </div>
+
+                    <button type="submit" name="btnlogin">Đăng nhập</button>
+                      
                     
                 </form>
             </div>
